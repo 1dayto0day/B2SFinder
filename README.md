@@ -4,12 +4,15 @@
 
 B2SFinder is a binary-to-source matching tool for OSS reuse detection on COTS software. This project contains the core code of B2SFinder without implementation about database and pipeline. 
 
+---------
+
 ### Requirements
 
 A Windows server with python 2.7 (64-bit) and IDA 7.0.
 
 A Linux server with python.
 
+---------
 
 ### Quickstart
 
@@ -29,7 +32,7 @@ $ cd FeatureMatch
 $ python feature_match.py -local_match <bin_path/bin_dir>
 ```
 
-
+---------
 
 ### Code Structure
 
